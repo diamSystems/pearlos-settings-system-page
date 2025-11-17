@@ -22,6 +22,7 @@ public class About.Plug : Switchboard.Plug {
     private const string OPERATING_SYSTEM = "operating-system";
     private const string HARDWARE = "hardware";
     private const string FIRMWARE = "firmware";
+    private const string STORAGE = "storage";
     private const string DRIVERS = "drivers";
 
     private OperatingSystemView operating_system_view;
@@ -37,6 +38,7 @@ public class About.Plug : Switchboard.Plug {
         settings.set ("about/os", OPERATING_SYSTEM);
         settings.set ("about/hardware", HARDWARE);
         settings.set ("about/firmware", FIRMWARE);
+        settings.set ("about/storage", STORAGE);
         settings.set ("about/drivers", DRIVERS);
 
         Object (
@@ -55,6 +57,7 @@ public class About.Plug : Switchboard.Plug {
 
             var hardware_view = new HardwareView ();
             var firmware_view = new FirmwareView ();
+            var storage_view = new StorageView ();
 
             stack = new Gtk.Stack () {
                 vexpand = true
@@ -62,6 +65,7 @@ public class About.Plug : Switchboard.Plug {
             stack.add_titled (operating_system_view, OPERATING_SYSTEM, _("Operating System"));
             stack.add_titled (hardware_view, HARDWARE, _("Hardware"));
             stack.add_titled (firmware_view, FIRMWARE, _("Firmware"));
+            stack.add_titled (storage_view, STORAGE, _("Storage"));
             stack.add_titled (new DriversView (), DRIVERS, _("Drivers"));
 
             var stack_switcher = new Gtk.StackSwitcher () {
@@ -101,6 +105,7 @@ public class About.Plug : Switchboard.Plug {
             case OPERATING_SYSTEM:
             case HARDWARE:
             case FIRMWARE:
+            case STORAGE:
             case DRIVERS:
                 stack.set_visible_child_name (location);
                 break;
@@ -135,6 +140,8 @@ public class About.Plug : Switchboard.Plug {
 
         search_results.set ("%s → %s".printf (display_name, _("Firmware")), FIRMWARE);
         search_results.set ("%s → %s → %s".printf (display_name, _("Firmware"), _("Restart to Firmware Setup…")), FIRMWARE);
+
+        search_results.set ("%s → %s".printf (display_name, _("Storage")), STORAGE);
 
         search_results.set ("%s → %s".printf (display_name, _("Drivers")), DRIVERS);
 

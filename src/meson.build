@@ -8,6 +8,7 @@ plug_files = files(
     'Views' / 'DriversView.vala',
     'Views/FirmwareReleaseView.vala',
     'Views/FirmwareView.vala',
+    'Views/StorageView.vala',
     'Views/HardwareView.vala',
     'Views/OperatingSystemView.vala',
     'Widgets/FirmwareUpdateRow.vala',
