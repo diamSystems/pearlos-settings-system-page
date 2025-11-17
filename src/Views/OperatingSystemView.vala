@@ -49,7 +49,7 @@ public class About.OperatingSystemView : Gtk.Box {
         var script = get_updater_script ();
         if (!FileUtils.test (script, FileTest.EXISTS)) {
             system_update_update_status (_("Updater unavailable"), _("Could not find updater at %s").printf (script));
-            system_update_show_error_dialog (_("diamOS updater not found"), _("Ensure updaterd.py is installed and accessible."));
+            system_update_show_error_dialog (_("diamOS updater not found"), _("Ensure updaterd is installed and accessible."));
             return false;
         }
 
@@ -547,7 +547,7 @@ public class About.OperatingSystemView : Gtk.Box {
     private Gtk.StringList packages;
     private SystemUpdate? update_proxy = null;
     private SystemUpdate.CurrentState? current_state = null;
-    private const string DIAM_UPDATER_DEFAULT_SCRIPT = "/home/zohaib/Documents/updaterd/updaterd.py";
+    private const string DIAM_UPDATER_DEFAULT_SCRIPT = "/usr/share/updaterd/updaterd.py";
 
     private Gtk.Grid software_grid;
     private Gtk.Image updates_image;

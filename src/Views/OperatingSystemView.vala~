@@ -547,7 +547,7 @@ public class About.OperatingSystemView : Gtk.Box {
     private Gtk.StringList packages;
     private SystemUpdate? update_proxy = null;
     private SystemUpdate.CurrentState? current_state = null;
-    private const string DIAM_UPDATER_DEFAULT_SCRIPT = "/home/zohaib/Documents/updaterd/updaterd.py";
+    private const string DIAM_UPDATER_DEFAULT_SCRIPT = "/usr/share/bin/";
 
     private Gtk.Grid software_grid;
     private Gtk.Image updates_image;
@@ -615,8 +615,8 @@ public class About.OperatingSystemView : Gtk.Box {
         };
 
         // Use custom logo files from /usr/share/branding/
-        var file_dark = File.new_for_path ("/usr/share/branding/logo.png");
-        var file_light = File.new_for_path ("/usr/share/branding/logo_white.png");
+        var file_dark = File.new_for_path ("/usr/share/branding/caracal.png");
+        var file_light = File.new_for_path ("/usr/share/branding/caracal.png");
 
         if (file_dark.query_exists () || file_light.query_exists ()) {
             logo_file_light = file_light.query_exists () ? file_light : null;
