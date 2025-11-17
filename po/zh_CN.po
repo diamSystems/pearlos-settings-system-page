@@ -1,0 +1,701 @@
+# Chinese (Simplified) translation for switchboard-plug-about
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the switchboard-plug-about package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchboard-plug-about\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-20 22:39+0000\n"
+"PO-Revision-Date: 2024-01-25 02:35+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
+"Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
+"switchboard/switchboard-plug-about/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.0.2\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:10+0000\n"
+
+#: src/Plug.vala:46
+msgid "System"
+msgstr "系统信息"
+
+#: src/Plug.vala:47
+msgid "View operating system and hardware information"
+msgstr "查看操作系统和硬件信息"
+
+#: src/Plug.vala:63 src/Plug.vala:127 src/Plug.vala:128 src/Plug.vala:129
+#: src/Plug.vala:130 src/Plug.vala:131 src/Plug.vala:132 src/Plug.vala:133
+#: src/Plug.vala:134 src/Plug.vala:135 src/Plug.vala:136
+msgid "Operating System"
+msgstr "系统"
+
+#: src/Plug.vala:64 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
+msgid "Hardware"
+msgstr "硬件"
+
+#: src/Plug.vala:65 src/Plug.vala:144 src/Plug.vala:145
+#: src/Views/FirmwareView.vala:35
+msgid "Firmware"
+msgstr "固件"
+
+#: src/Plug.vala:66 src/Plug.vala:147 src/Views/DriversView.vala:19
+msgid "Drivers"
+msgstr ""
+
+#: src/Plug.vala:128 src/Views/OperatingSystemView.vala:238
+#, fuzzy
+#| msgid "All Updates"
+msgid "Automatic Updates"
+msgstr "全部更新"
+
+#: src/Plug.vala:129 src/Views/OperatingSystemView.vala:288
+msgid "Basics Guide"
+msgstr ""
+
+#: src/Plug.vala:130 src/Views/OperatingSystemView.vala:295
+msgid "Get Help"
+msgstr ""
+
+#: src/Plug.vala:131
+msgid "Get Involved or Sponsor Us"
+msgstr ""
+
+#: src/Plug.vala:132
+msgid "Get Support"
+msgstr "获取支持"
+
+#: src/Plug.vala:133 src/Views/OperatingSystemView.vala:302
+#, fuzzy
+#| msgid "Website"
+msgid "Our Website"
+msgstr "项目主页"
+
+#: src/Plug.vala:134
+msgid "Report a Problem"
+msgstr "报告问题"
+
+#: src/Plug.vala:135 src/Views/OperatingSystemView.vala:329
+msgid "Restore Default Settings"
+msgstr "重置设置"
+
+#: src/Plug.vala:136 src/Views/OperatingSystemView.vala:331
+msgid "Send Feedback"
+msgstr "提交反馈"
+
+#: src/Plug.vala:139
+#, fuzzy
+#| msgid "Device is locked"
+msgid "Device name"
+msgstr "设备已锁定"
+
+#: src/Plug.vala:140
+msgid "Host name"
+msgstr ""
+
+#. https://github.com/elementary/switchboard-plug-about/issues/219
+#: src/Plug.vala:142
+msgid "About This Device"
+msgstr ""
+
+#: src/Plug.vala:145 src/Views/FirmwareView.vala:86
+msgid "Restart to Firmware Setup…"
+msgstr "重启至固件设置界面…"
+
+#: src/Views/DriversView.vala:20
+msgid ""
+"Broadcom® Wi-Fi adapters, NVIDIA® graphics, and some virtual machines may "
+"not function properly without additional drivers."
+msgstr ""
+
+#: src/Views/DriversView.vala:25
+#, fuzzy
+#| msgid "%u Update Available"
+#| msgid_plural "%u Updates Available"
+msgid "No drivers available"
+msgstr "%u 更新可用"
+
+#: src/Views/DriversView.vala:26
+msgid "This device doesn't need any additional drivers."
+msgstr ""
+
+#: src/Views/DriversView.vala:30
+#, fuzzy
+#| msgid "Checking for Updates"
+msgid "Checking for Drivers"
+msgstr "正在检查更新"
+
+#: src/Views/DriversView.vala:31
+#, fuzzy
+#| msgid "Connecting to the firmware service and searching for updates."
+msgid "Connecting to the driver service and searching for drivers."
+msgstr "正在连接固件服务并查找更新。"
+
+#: src/Views/DriversView.vala:51
+#, fuzzy
+#| msgid "Failed to install firmware release"
+msgid "Failed to install driver"
+msgstr "安装固件失败"
+
+#: src/Views/DriversView.vala:52
+msgid "Manually refreshing driver information may resolve the issue"
+msgstr ""
+
+#: src/Views/DriversView.vala:55 src/Views/OperatingSystemView.vala:214
+msgid "Refresh"
+msgstr "刷新"
+
+#: src/Views/DriversView.vala:55
+#, fuzzy
+#| msgid "Hardware Information"
+msgid "Refresh driver information"
+msgstr "硬件信息"
+
+#: src/Views/DriversView.vala:56 src/Views/OperatingSystemView.vala:226
+msgid "Learn More…"
+msgstr ""
+
+#: src/Views/DriversView.vala:91
+#, fuzzy
+#| msgid "Failed to install firmware release"
+msgid "Failed to install"
+msgstr "安装固件失败"
+
+#: src/Views/DriversView.vala:92
+msgid ""
+"This may have been caused by sideloaded or manually compiled software, a "
+"third-party software source, or a package manager error. Manually refreshing "
+"may resolve the issue."
+msgstr ""
+
+#: src/Views/DriversView.vala:156
+#, c-format
+msgid "Installing %s…"
+msgstr ""
+
+#: src/Views/FirmwareReleaseView.vala:28
+msgid "All Updates"
+msgstr "全部更新"
+
+#: src/Views/FirmwareReleaseView.vala:74
+msgid "Version:"
+msgstr "版本："
+
+#: src/Views/FirmwareReleaseView.vala:83
+msgid "Vendor:"
+msgstr "供应商："
+
+#: src/Views/FirmwareReleaseView.vala:92
+msgid "Size:"
+msgstr "字符大小："
+
+#: src/Views/FirmwareReleaseView.vala:101
+msgid "Estimated time to install:"
+msgstr "预计安装时长："
+
+#: src/Views/FirmwareReleaseView.vala:129
+msgid "There are no releases available for this device."
+msgstr "未找到可用的固件更新。"
+
+#: src/Views/FirmwareReleaseView.vala:202 src/Widgets/FirmwareUpdateRow.vala:73
+msgid "Update"
+msgstr "更新"
+
+#: src/Views/FirmwareReleaseView.vala:205
+msgid "Up to date"
+msgstr "已是最新"
+
+#: src/Views/FirmwareReleaseView.vala:226
+msgid "less than a minute"
+msgstr "少于 1 分钟"
+
+#: src/Views/FirmwareReleaseView.vala:230
+#, c-format
+msgid "%llu minute"
+msgid_plural "%llu minutes"
+msgstr[0] "%ll 分钟"
+
+#: src/Views/FirmwareView.vala:36
+msgid ""
+"Firmware updates provided by device manufacturers can improve performance "
+"and fix critical security issues."
+msgstr "由设备制造商提供的固件更新可以提高性能并修复关键安全问题。"
+
+#: src/Views/FirmwareView.vala:42
+msgid "Do not unplug the device during the update."
+msgstr "升级期间请勿断开设备电源。"
+
+#: src/Views/FirmwareView.vala:46 src/Views/OperatingSystemView.vala:548
+msgid "Checking for Updates"
+msgstr "正在检查更新"
+
+#: src/Views/FirmwareView.vala:47
+msgid "Connecting to the firmware service and searching for updates."
+msgstr "正在连接固件服务并查找更新。"
+
+#: src/Views/FirmwareView.vala:116
+msgid "Firmware Updates Are Not Available"
+msgstr "固件更新服务不可用"
+
+#: src/Views/FirmwareView.vala:117
+msgid "Firmware updates are not supported on this or any connected devices."
+msgstr "当前设备或其他已连接设备不支持固件更新。"
+
+#: src/Views/FirmwareView.vala:119
+msgid "The Firmware Service Is Not Available"
+msgstr "固件服务不可用"
+
+#: src/Views/FirmwareView.vala:120
+msgid "Please make sure “fwupd” is installed and enabled."
+msgstr "请确保 \"fwupd\" 软件包已安装并启用。"
+
+#: src/Views/FirmwareView.vala:219
+#, c-format
+msgid "%u Update Available"
+msgid_plural "%u Updates Available"
+msgstr[0] "%u 更新可用"
+
+#: src/Views/FirmwareView.vala:223
+msgid "Up to Date"
+msgstr "已是最新"
+
+#: src/Views/FirmwareView.vala:231
+#, c-format
+msgid "“%s” is being updated"
+msgstr "正在更新 “%s”"
+
+#: src/Views/FirmwareView.vala:331
+msgid "Failed to install firmware release"
+msgstr "安装固件失败"
+
+#: src/Views/FirmwareView.vala:352
+#, c-format
+msgid "“%s” needs to manually be put in update mode"
+msgstr "“%s” 需要手动设置为更新模式"
+
+#: src/Views/FirmwareView.vala:361
+msgid "Continue"
+msgstr "继续"
+
+#: src/Views/FirmwareView.vala:374
+msgid "An update requires the system to restart to complete"
+msgstr "某项更新需要重新启动操作系统"
+
+#: src/Views/FirmwareView.vala:375
+msgid "This will close all open applications and restart this device."
+msgstr "这会关闭所有应用程序并重启本设备。"
+
+#: src/Views/FirmwareView.vala:383 src/Views/FirmwareView.vala:432
+msgid "Restart"
+msgstr "重新启动"
+
+#: src/Views/FirmwareView.vala:398
+msgid "An update requires the system to shut down to complete"
+msgstr "某项更新需要完全关闭操作系统"
+
+#: src/Views/FirmwareView.vala:399
+msgid "This will close all open applications and turn off this device."
+msgstr "这会关闭所有程序并使本设备关机。"
+
+#: src/Views/FirmwareView.vala:407
+msgid "Shut Down"
+msgstr "关机"
+
+#: src/Views/FirmwareView.vala:422
+msgid "Restart to firmware setup"
+msgstr "重启至固件设置界面"
+
+#: src/Views/FirmwareView.vala:423
+msgid ""
+"This will close all open applications, restart this device, and open the "
+"firmware setup screen."
+msgstr "这会关闭所有应用程序、重启设备并打开固件设置界面。"
+
+#: src/Views/FirmwareView.vala:447
+msgid "Unable to restart to firmware setup"
+msgstr "无法重启至固件设置界面"
+
+#: src/Views/FirmwareView.vala:448
+msgid "A system error prevented automatically restarting into firmware setup."
+msgstr "某个系统错误已阻止自动重启至固件设置界面。"
+
+#: src/Views/HardwareView.vala:49
+msgid "You do not have permission to change the device name"
+msgstr ""
+
+#: src/Views/HardwareView.vala:60
+#, c-format
+msgid "%s memory"
+msgstr "%s 内存"
+
+#: src/Views/HardwareView.vala:66 src/Views/HardwareView.vala:360
+msgid "Unknown Graphics"
+msgstr "未知显卡"
+
+#: src/Views/HardwareView.vala:81
+msgid "Unknown storage"
+msgstr "未知存储器"
+
+#: src/Views/HardwareView.vala:127
+msgid "Manufacturer Website"
+msgstr "项目网站"
+
+#: src/Views/HardwareView.vala:160
+#, fuzzy
+#| msgid "%u Update Available"
+#| msgid_plural "%u Updates Available"
+msgid "Update device name"
+msgstr "%u 更新可用"
+
+#: src/Views/HardwareView.vala:180
+#, fuzzy
+#| msgid "Device is locked"
+msgid "Device name saved"
+msgstr "设备已锁定"
+
+#: src/Views/HardwareView.vala:284
+#, c-format
+msgid "Dual-Core %s"
+msgstr "双核 %s"
+
+#: src/Views/HardwareView.vala:286
+#, c-format
+msgid "Quad-Core %s"
+msgstr "四核 %s"
+
+#: src/Views/HardwareView.vala:288
+#, c-format
+msgid "Hexa-Core %s"
+msgstr "六核 %s"
+
+#: src/Views/HardwareView.vala:400
+msgid "Unknown Processor"
+msgstr "未知处理器"
+
+#: src/Views/HardwareView.vala:473
+msgid "Unknown"
+msgstr "未知设备"
+
+#: src/Views/HardwareView.vala:528
+#, c-format
+msgid "%s storage (NVMe SSD)"
+msgstr "%s NVMe 固态硬盘"
+
+#: src/Views/HardwareView.vala:530
+#, c-format
+msgid "%s storage (eMMC)"
+msgstr "%s eMMC 介质"
+
+#: src/Views/HardwareView.vala:532
+#, c-format
+msgid "%s storage (SATA SSD)"
+msgstr "%s SATA 固态硬盘"
+
+#: src/Views/HardwareView.vala:535
+#, c-format
+msgid "%s storage (HDD)"
+msgstr "%s 机械硬盘"
+
+#. Set fallback string for the device type
+#: src/Views/HardwareView.vala:540
+#, c-format
+msgid "%s storage"
+msgstr "%s 硬盘"
+
+#: src/Views/HardwareView.vala:712
+msgid "byte"
+msgid_plural "bytes"
+msgstr[0] "字节"
+
+#: src/Views/HardwareView.vala:714
+#, fuzzy, c-format
+#| msgid "byte"
+#| msgid_plural "bytes"
+msgid "%u byte"
+msgid_plural "%u bytes"
+msgstr[0] "字节"
+
+#: src/Views/HardwareView.vala:721
+#, fuzzy, c-format
+msgctxt "format-size"
+msgid "%u %s"
+msgstr "%llu %s"
+
+#: src/Views/OperatingSystemView.vala:209
+msgid "Download"
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:212
+msgid "Cancel"
+msgstr "取消"
+
+#: src/Views/OperatingSystemView.vala:239
+msgid ""
+"Updates will be automatically downloaded. They will be installed when this "
+"device is restarted."
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:309
+msgid "Get Involved"
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:496
+#, c-format
+msgid "Built on %s"
+msgstr "基于 %s 构建"
+
+#: src/Views/OperatingSystemView.vala:516
+#, fuzzy
+#| msgid "%u Update Available"
+#| msgid_plural "%u Updates Available"
+msgid "System updates not available"
+msgstr "%u 更新可用"
+
+#: src/Views/OperatingSystemView.vala:517
+msgid "Couldn't connect to the backend. Try logging out to resolve the issue."
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:530
+#, fuzzy
+#| msgid "Up to Date"
+msgid "Up To Date"
+msgstr "已是最新"
+
+#: src/Views/OperatingSystemView.vala:534
+#, c-format
+msgid "Last checked %s"
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:541
+msgid "Last checked unknown"
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:554
+#, fuzzy
+#| msgid "%u Update Available"
+#| msgid_plural "%u Updates Available"
+msgid "Updates Available"
+msgstr "%u 更新可用"
+
+#: src/Views/OperatingSystemView.vala:561
+#, fuzzy, c-format
+#| msgid "%u Update Available"
+#| msgid_plural "%u Updates Available"
+msgid "%i update available (%s)"
+msgid_plural "%i updates available (%s)"
+msgstr[0] "%u 更新可用"
+
+#: src/Views/OperatingSystemView.vala:572
+msgid "Unable to determine number of updates"
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:586
+#, fuzzy
+#| msgid "All Updates"
+msgid "Downloading Updates"
+msgstr "全部更新"
+
+#: src/Views/OperatingSystemView.vala:595
+msgid "Restart to install pending updates"
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:596
+msgid ""
+"Updates have been downloaded. A restart is required to finish installing "
+"them."
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:601
+#: src/Views/OperatingSystemView.vala:627
+msgid "Failed to download updates"
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:602
+msgid "Manually refreshing updates may resolve the issue"
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:617
+#, c-format
+msgid "%s of %s"
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:628
+msgid ""
+"This may have been caused by sideloaded or manually compiled software, a "
+"third-party software source, or a package manager error. Manually refreshing "
+"updates may resolve the issue."
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:670
+msgid "System Settings Will Be Restored to The Factory Defaults"
+msgstr "系统设置将会被重置为出厂默认值"
+
+#: src/Views/OperatingSystemView.vala:671
+msgid ""
+"All system settings and data will be reset to the default values. Personal "
+"data, such as music and pictures, will be unaffected."
+msgstr ""
+"所有系统设置参数将会被重置为默认值，个人数据，如音乐和照片等不会受影响。"
+
+#: src/Views/OperatingSystemView.vala:679
+msgid "Restore Settings"
+msgstr "重置设置"
+
+#: src/Views/OperatingSystemView.vala:824
+msgid "Sponsor Us"
+msgstr ""
+
+#. /TRANSLATORS: first value is a percentage, second value is an amount in USD
+#: src/Views/OperatingSystemView.vala:887
+#, c-format
+msgid "%.0f%% towards $%'5.0f per month goal"
+msgstr ""
+
+#: src/Widgets/UpdateDetailsDialog.vala:14
+msgid "What's New"
+msgstr ""
+
+#: src/Widgets/UpdateDetailsDialog.vala:20
+#, c-format
+msgid "%u package will be upgraded"
+msgid_plural "%u packages will be upgraded"
+msgstr[0] ""
+
+#: src/Widgets/UpdateDetailsDialog.vala:67
+msgid "Close"
+msgstr "关闭"
+
+#, fuzzy
+#~| msgid "Restart"
+#~ msgid "Restart Required"
+#~ msgstr "重新启动"
+
+#~ msgid "Operating System Information"
+#~ msgstr "操作系统信息"
+
+#~ msgid "Hardware Information"
+#~ msgstr "硬件信息"
+
+#~ msgid "Suggest Translations"
+#~ msgstr "助力翻译"
+
+#~ msgid "Updates"
+#~ msgstr "检查更新"
+
+#~ msgid "Check for Updates"
+#~ msgstr "检查更新"
+
+#~ msgid "KB"
+#~ msgstr "KB"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "GB"
+#~ msgstr "GB"
+
+#~ msgid "TB"
+#~ msgstr "TB"
+
+#~ msgid "PB"
+#~ msgstr "PB"
+
+#~ msgid "Internal device"
+#~ msgstr "内置硬件"
+
+#~ msgid "Updatable"
+#~ msgstr "可更新"
+
+#~ msgid "Update requires restarting the system"
+#~ msgstr "更新需要重新启动系统"
+
+#~ msgid "System requires external power source"
+#~ msgstr "系统需要外接电源"
+
+#~ msgid "Supported on LVFS"
+#~ msgstr "支持 LVFS"
+
+#~ msgid "Requires a bootloader"
+#~ msgstr "需要 bootloader"
+
+#~ msgid "Requires the system to shut down after installation"
+#~ msgstr "安装完成后需要关机"
+
+#~ msgid "Reported to LVFS"
+#~ msgstr "已向 LVFS 报告"
+
+#~ msgid "User has been notified"
+#~ msgstr "已经通知用户"
+
+#~ msgid "Is in bootloader mode"
+#~ msgstr "处于 bootloader 模式中"
+
+#~ msgid "Hardware is waiting to be replugged"
+#~ msgstr "正在等待重新插入硬件"
+
+#~ msgid "Ignore validation safety checks"
+#~ msgstr "忽略安全验证"
+
+#~ msgid "Device update needs activation"
+#~ msgstr "设备更新需要激活"
+
+#~ msgid "Suggest Translation"
+#~ msgstr "助力翻译"
+
+#~ msgid "GTK %u.%u.%u"
+#~ msgstr "GTK %u.%u.%u"
+
+#~ msgid "About"
+#~ msgstr "关于"
+
+#~ msgid "Report Problems"
+#~ msgstr "反馈问题"
+
+#~ msgid "GTK+ %s"
+#~ msgstr "GTK+ 版本：%s"
+
+#~ msgid "Which of the Following Are You Seeing an Issue With?"
+#~ msgstr "您有哪些方面的问题？"
+
+#~ msgid "Please select a component from the list."
+#~ msgstr "请从列表中选择一项。"
+
+#~ msgid "Categories"
+#~ msgstr "分类"
+
+#~ msgid "Report Problem"
+#~ msgstr "反馈问题"
+
+#~ msgid "Applications Menu"
+#~ msgstr "程序菜单"
+
+#~ msgid "Lock or Login Screen"
+#~ msgstr "锁屏或登录界面"
+
+#~ msgid "Look & Feel"
+#~ msgstr "外观感受"
+
+#~ msgid "Multitasking or Window Management"
+#~ msgstr "多任务或窗口管理"
+
+#~ msgid "Notifications"
+#~ msgstr "通知"
+
+#~ msgid "Panel Indicators"
+#~ msgstr "顶部面板内指示器"
+
+#~ msgid "System Settings"
+#~ msgstr "系统设置"
+
+#~ msgid "Desktop Components"
+#~ msgstr "桌面集成"
+
+#~ msgid "Default Apps"
+#~ msgstr "默认应用"
+
+#~ msgid "Personal data, such as music and pictures, will be uneffected."
+#~ msgstr "个人数据，如音乐和照片等将不受影响。"

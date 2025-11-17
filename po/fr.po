@@ -1,0 +1,762 @@
+# French translation for switchboard-plug-about
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the switchboard-plug-about package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchboard-plug-about\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-20 22:39+0000\n"
+"PO-Revision-Date: 2025-02-21 12:13+0000\n"
+"Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
+"Language-Team: French <https://l10n.elementary.io/projects/settings/"
+"switchboard-plug-about/fr/>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:09+0000\n"
+
+#: src/Plug.vala:46
+msgid "System"
+msgstr "Système"
+
+#: src/Plug.vala:47
+msgid "View operating system and hardware information"
+msgstr "Afficher les informations du système d'exploitation et du matériel"
+
+#: src/Plug.vala:63 src/Plug.vala:127 src/Plug.vala:128 src/Plug.vala:129
+#: src/Plug.vala:130 src/Plug.vala:131 src/Plug.vala:132 src/Plug.vala:133
+#: src/Plug.vala:134 src/Plug.vala:135 src/Plug.vala:136
+msgid "Operating System"
+msgstr "Système d'exploitation"
+
+#: src/Plug.vala:64 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
+msgid "Hardware"
+msgstr "Matériel"
+
+#: src/Plug.vala:65 src/Plug.vala:144 src/Plug.vala:145
+#: src/Views/FirmwareView.vala:35
+msgid "Firmware"
+msgstr "Micrologiciel"
+
+#: src/Plug.vala:66 src/Plug.vala:147 src/Views/DriversView.vala:19
+msgid "Drivers"
+msgstr "Pilotes"
+
+#: src/Plug.vala:128 src/Views/OperatingSystemView.vala:238
+msgid "Automatic Updates"
+msgstr "Mises à jour automatiques"
+
+#: src/Plug.vala:129 src/Views/OperatingSystemView.vala:288
+msgid "Basics Guide"
+msgstr "Guide de base"
+
+#: src/Plug.vala:130 src/Views/OperatingSystemView.vala:295
+msgid "Get Help"
+msgstr "Obtenir de l'aide"
+
+#: src/Plug.vala:131
+msgid "Get Involved or Sponsor Us"
+msgstr "S'impliquer ou nous soutenir"
+
+#: src/Plug.vala:132
+msgid "Get Support"
+msgstr "Obtenir de l'aide"
+
+#: src/Plug.vala:133 src/Views/OperatingSystemView.vala:302
+msgid "Our Website"
+msgstr "Note site Web"
+
+#: src/Plug.vala:134
+msgid "Report a Problem"
+msgstr "Signaler un problème"
+
+#: src/Plug.vala:135 src/Views/OperatingSystemView.vala:329
+msgid "Restore Default Settings"
+msgstr "Restaurer les paramètres par défaut"
+
+#: src/Plug.vala:136 src/Views/OperatingSystemView.vala:331
+msgid "Send Feedback"
+msgstr "Envoyer des commentaires"
+
+#: src/Plug.vala:139
+msgid "Device name"
+msgstr "Nom de l'appareil"
+
+#: src/Plug.vala:140
+msgid "Host name"
+msgstr "Nom d'hôte"
+
+#. https://github.com/elementary/switchboard-plug-about/issues/219
+#: src/Plug.vala:142
+msgid "About This Device"
+msgstr "À propos de cet appareil"
+
+#: src/Plug.vala:145 src/Views/FirmwareView.vala:86
+msgid "Restart to Firmware Setup…"
+msgstr "Redémarrer vers la configuration du micrologiciel…"
+
+#: src/Views/DriversView.vala:20
+msgid ""
+"Broadcom® Wi-Fi adapters, NVIDIA® graphics, and some virtual machines may "
+"not function properly without additional drivers."
+msgstr ""
+"Les adaptateurs Wi-Fi Broadcom®, les cartes graphiques NVIDIA® et certaines "
+"machines virtuelles peuvent ne pas fonctionner correctement sans pilotes "
+"additionnels."
+
+#: src/Views/DriversView.vala:25
+msgid "No drivers available"
+msgstr "Aucun pilote disponible"
+
+#: src/Views/DriversView.vala:26
+msgid "This device doesn't need any additional drivers."
+msgstr "Cet appareil ne nécessite aucun pilote additionnel."
+
+#: src/Views/DriversView.vala:30
+msgid "Checking for Drivers"
+msgstr "Vérification des pilotes"
+
+#: src/Views/DriversView.vala:31
+msgid "Connecting to the driver service and searching for drivers."
+msgstr "Connexion au service et recherche des pilotes."
+
+#: src/Views/DriversView.vala:51
+msgid "Failed to install driver"
+msgstr "Échec de l'installation du pilote"
+
+#: src/Views/DriversView.vala:52
+msgid "Manually refreshing driver information may resolve the issue"
+msgstr ""
+"L'actualisation manuelle des informations du pilote pourrait résoudre le "
+"problème"
+
+#: src/Views/DriversView.vala:55 src/Views/OperatingSystemView.vala:214
+msgid "Refresh"
+msgstr "Actualiser"
+
+#: src/Views/DriversView.vala:55
+msgid "Refresh driver information"
+msgstr "Actualiser les informations du pilote"
+
+#: src/Views/DriversView.vala:56 src/Views/OperatingSystemView.vala:226
+msgid "Learn More…"
+msgstr "En savoir plus…"
+
+#: src/Views/DriversView.vala:91
+msgid "Failed to install"
+msgstr "Échec de l'installation"
+
+#: src/Views/DriversView.vala:92
+msgid ""
+"This may have been caused by sideloaded or manually compiled software, a "
+"third-party software source, or a package manager error. Manually refreshing "
+"may resolve the issue."
+msgstr ""
+"Cela peut être dû à un logiciel téléchargé ou compilé manuellement, à une "
+"source logicielle tierce ou à une erreur du gestionnaire de paquets. "
+"L'actualisation manuelle peut résoudre le problème."
+
+#: src/Views/DriversView.vala:156
+#, c-format
+msgid "Installing %s…"
+msgstr "Installation de %s…"
+
+#: src/Views/FirmwareReleaseView.vala:28
+msgid "All Updates"
+msgstr "Toutes les mises à jour"
+
+#: src/Views/FirmwareReleaseView.vala:74
+msgid "Version:"
+msgstr "Version :"
+
+#: src/Views/FirmwareReleaseView.vala:83
+msgid "Vendor:"
+msgstr "Fournisseur :"
+
+#: src/Views/FirmwareReleaseView.vala:92
+msgid "Size:"
+msgstr "Taille :"
+
+#: src/Views/FirmwareReleaseView.vala:101
+msgid "Estimated time to install:"
+msgstr "Durée d'installation estimée :"
+
+#: src/Views/FirmwareReleaseView.vala:129
+msgid "There are no releases available for this device."
+msgstr "Il n'y a pas de nouvelle version disponible pour ce périphérique."
+
+#: src/Views/FirmwareReleaseView.vala:202 src/Widgets/FirmwareUpdateRow.vala:73
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: src/Views/FirmwareReleaseView.vala:205
+msgid "Up to date"
+msgstr "À jour"
+
+#: src/Views/FirmwareReleaseView.vala:226
+msgid "less than a minute"
+msgstr "il y a moins d'une minute"
+
+#: src/Views/FirmwareReleaseView.vala:230
+#, c-format
+msgid "%llu minute"
+msgid_plural "%llu minutes"
+msgstr[0] "%llu minute"
+msgstr[1] "%llu minutes"
+
+#: src/Views/FirmwareView.vala:36
+msgid ""
+"Firmware updates provided by device manufacturers can improve performance "
+"and fix critical security issues."
+msgstr ""
+"Les mises à jour du micrologiciel fournies par les constructeurs de matériel "
+"peuvent améliorer les performances et corriger des failles critiques de "
+"sécurité."
+
+#: src/Views/FirmwareView.vala:42
+msgid "Do not unplug the device during the update."
+msgstr "Ne débranchez pas le périphérique pendant la mise à jour."
+
+#: src/Views/FirmwareView.vala:46 src/Views/OperatingSystemView.vala:548
+msgid "Checking for Updates"
+msgstr "Vérification des mises à jour"
+
+#: src/Views/FirmwareView.vala:47
+msgid "Connecting to the firmware service and searching for updates."
+msgstr "Connexion au service du micrologiciel et recherche de mises à jour."
+
+#: src/Views/FirmwareView.vala:116
+msgid "Firmware Updates Are Not Available"
+msgstr "Aucune mise à jour du micrologiciel disponible"
+
+#: src/Views/FirmwareView.vala:117
+msgid "Firmware updates are not supported on this or any connected devices."
+msgstr ""
+"La mise à jour du micrologiciel n'est pris en charge ni par ce matériel, ni "
+"par les périphériques connectés."
+
+#: src/Views/FirmwareView.vala:119
+msgid "The Firmware Service Is Not Available"
+msgstr "Le service du micrologiciel n'est pas disponible"
+
+#: src/Views/FirmwareView.vala:120
+msgid "Please make sure “fwupd” is installed and enabled."
+msgstr "Assurez-vous que « fwupd » est installé et activé."
+
+#: src/Views/FirmwareView.vala:219
+#, c-format
+msgid "%u Update Available"
+msgid_plural "%u Updates Available"
+msgstr[0] "%u mise à jour disponible"
+msgstr[1] "%u mises à jour disponibles"
+
+#: src/Views/FirmwareView.vala:223
+msgid "Up to Date"
+msgstr "À jour"
+
+#: src/Views/FirmwareView.vala:231
+#, c-format
+msgid "“%s” is being updated"
+msgstr "Mise à jour de « %s »"
+
+#: src/Views/FirmwareView.vala:331
+msgid "Failed to install firmware release"
+msgstr "Échec de l'installation du micrologiciel"
+
+#: src/Views/FirmwareView.vala:352
+#, c-format
+msgid "“%s” needs to manually be put in update mode"
+msgstr "« %s » doit être mis manuellement en mode mise à jour"
+
+#: src/Views/FirmwareView.vala:361
+msgid "Continue"
+msgstr "Continuer"
+
+#: src/Views/FirmwareView.vala:374
+msgid "An update requires the system to restart to complete"
+msgstr "Le système doit être redémarré pour terminer une des mises à jour"
+
+#: src/Views/FirmwareView.vala:375
+msgid "This will close all open applications and restart this device."
+msgstr ""
+"Ceci fermera toutes les applications ouvertes et redémarrera le système."
+
+#: src/Views/FirmwareView.vala:383 src/Views/FirmwareView.vala:432
+msgid "Restart"
+msgstr "Redémarrer"
+
+#: src/Views/FirmwareView.vala:398
+msgid "An update requires the system to shut down to complete"
+msgstr "Le système doit être arrêté pour terminer une des mises à jour"
+
+#: src/Views/FirmwareView.vala:399
+msgid "This will close all open applications and turn off this device."
+msgstr "Ceci fermera toutes les applications ouvertes et arrêtera le système."
+
+#: src/Views/FirmwareView.vala:407
+msgid "Shut Down"
+msgstr "Arrêter"
+
+#: src/Views/FirmwareView.vala:422
+msgid "Restart to firmware setup"
+msgstr "Redémarrer vers la configuration du micrologiciel"
+
+#: src/Views/FirmwareView.vala:423
+msgid ""
+"This will close all open applications, restart this device, and open the "
+"firmware setup screen."
+msgstr ""
+"Ceci fermera toutes les applications ouvertes, redémarrera cet appareil et "
+"ouvrira l'écran de configuration du micrologiciel."
+
+#: src/Views/FirmwareView.vala:447
+msgid "Unable to restart to firmware setup"
+msgstr "Échec du redémarrage vers le micrologiciel"
+
+#: src/Views/FirmwareView.vala:448
+msgid "A system error prevented automatically restarting into firmware setup."
+msgstr ""
+"Une erreur système a empêché le redémarrage automatique vers la "
+"configuration du micrologiciel."
+
+#: src/Views/HardwareView.vala:49
+msgid "You do not have permission to change the device name"
+msgstr "Vous n'avez pas l'autorisation de modifier le nom de l'appareil"
+
+#: src/Views/HardwareView.vala:60
+#, c-format
+msgid "%s memory"
+msgstr "%s de mémoire vive"
+
+#: src/Views/HardwareView.vala:66 src/Views/HardwareView.vala:360
+msgid "Unknown Graphics"
+msgstr "Carte graphique inconnue"
+
+#: src/Views/HardwareView.vala:81
+msgid "Unknown storage"
+msgstr "Stockage inconnu"
+
+#: src/Views/HardwareView.vala:127
+msgid "Manufacturer Website"
+msgstr "Site web du fabricant"
+
+#: src/Views/HardwareView.vala:160
+msgid "Update device name"
+msgstr "Mettre à jour le nom de l'appareil"
+
+#: src/Views/HardwareView.vala:180
+msgid "Device name saved"
+msgstr "Nom de l'appareil enregistré"
+
+#: src/Views/HardwareView.vala:284
+#, c-format
+msgid "Dual-Core %s"
+msgstr "Double cœur %s"
+
+#: src/Views/HardwareView.vala:286
+#, c-format
+msgid "Quad-Core %s"
+msgstr "Quadruple cœur %s"
+
+#: src/Views/HardwareView.vala:288
+#, c-format
+msgid "Hexa-Core %s"
+msgstr "Six cœurs %s"
+
+#: src/Views/HardwareView.vala:400
+msgid "Unknown Processor"
+msgstr "Processeur inconnu"
+
+#: src/Views/HardwareView.vala:473
+msgid "Unknown"
+msgstr "Inconnu"
+
+#: src/Views/HardwareView.vala:528
+#, c-format
+msgid "%s storage (NVMe SSD)"
+msgstr "%s de stockage (SSD NVMe)"
+
+#: src/Views/HardwareView.vala:530
+#, c-format
+msgid "%s storage (eMMC)"
+msgstr "%s de stockage (eMMC)"
+
+#: src/Views/HardwareView.vala:532
+#, c-format
+msgid "%s storage (SATA SSD)"
+msgstr "%s de stockage (SSD SATA)"
+
+#: src/Views/HardwareView.vala:535
+#, c-format
+msgid "%s storage (HDD)"
+msgstr "%s de stockage (HDD)"
+
+#. Set fallback string for the device type
+#: src/Views/HardwareView.vala:540
+#, c-format
+msgid "%s storage"
+msgstr "%s de stockage"
+
+#: src/Views/HardwareView.vala:712
+msgid "byte"
+msgid_plural "bytes"
+msgstr[0] "octet"
+msgstr[1] "octets"
+
+#: src/Views/HardwareView.vala:714
+#, c-format
+msgid "%u byte"
+msgid_plural "%u bytes"
+msgstr[0] "%u octet"
+msgstr[1] "%u octets"
+
+#: src/Views/HardwareView.vala:721
+#, c-format
+msgctxt "format-size"
+msgid "%u %s"
+msgstr "%u %s"
+
+#: src/Views/OperatingSystemView.vala:209
+msgid "Download"
+msgstr "Télécharger"
+
+#: src/Views/OperatingSystemView.vala:212
+msgid "Cancel"
+msgstr "Annuler"
+
+#: src/Views/OperatingSystemView.vala:239
+msgid ""
+"Updates will be automatically downloaded. They will be installed when this "
+"device is restarted."
+msgstr ""
+"Les mises à jour seront téléchargées automatiquement. Elles seront "
+"installées au redémarrage de l'appareil."
+
+#: src/Views/OperatingSystemView.vala:309
+msgid "Get Involved"
+msgstr "S'impliquer"
+
+#: src/Views/OperatingSystemView.vala:496
+#, c-format
+msgid "Built on %s"
+msgstr "Basé sur %s"
+
+#: src/Views/OperatingSystemView.vala:516
+msgid "System updates not available"
+msgstr "Mises à jour du système non disponibles"
+
+#: src/Views/OperatingSystemView.vala:517
+msgid "Couldn't connect to the backend. Try logging out to resolve the issue."
+msgstr ""
+"Impossible d'accéder au service. Essayez de vous déconnecter pour résoudre "
+"le problème."
+
+#: src/Views/OperatingSystemView.vala:530
+msgid "Up To Date"
+msgstr "À jour"
+
+#: src/Views/OperatingSystemView.vala:534
+#, c-format
+msgid "Last checked %s"
+msgstr "Dernière vérification %s"
+
+#: src/Views/OperatingSystemView.vala:541
+msgid "Last checked unknown"
+msgstr "Dernière vérification inconnue"
+
+#: src/Views/OperatingSystemView.vala:554
+msgid "Updates Available"
+msgstr "Mises à jour disponibles"
+
+#: src/Views/OperatingSystemView.vala:561
+#, c-format
+msgid "%i update available (%s)"
+msgid_plural "%i updates available (%s)"
+msgstr[0] "%i mise à jour disponible (%s)"
+msgstr[1] "%i mises à jour disponibles (%s)"
+
+#: src/Views/OperatingSystemView.vala:572
+msgid "Unable to determine number of updates"
+msgstr "Impossible de déterminer le nombre de mises à jour"
+
+#: src/Views/OperatingSystemView.vala:586
+msgid "Downloading Updates"
+msgstr "Téléchargement des mises à jour"
+
+#: src/Views/OperatingSystemView.vala:595
+msgid "Restart to install pending updates"
+msgstr "Redémarrer pour terminer l'installation des mises à jour"
+
+#: src/Views/OperatingSystemView.vala:596
+msgid ""
+"Updates have been downloaded. A restart is required to finish installing "
+"them."
+msgstr ""
+"Des mises à jour ont été téléchargées. Un redémarrage est nécessaire pour "
+"terminer de les installer."
+
+#: src/Views/OperatingSystemView.vala:601
+#: src/Views/OperatingSystemView.vala:627
+msgid "Failed to download updates"
+msgstr "Échec du téléchargement des mises à jour"
+
+#: src/Views/OperatingSystemView.vala:602
+msgid "Manually refreshing updates may resolve the issue"
+msgstr ""
+"L'actualisation manuelle des mises à jour pourrait résoudre le problème"
+
+#: src/Views/OperatingSystemView.vala:617
+#, c-format
+msgid "%s of %s"
+msgstr "%s sur %s"
+
+#: src/Views/OperatingSystemView.vala:628
+msgid ""
+"This may have been caused by sideloaded or manually compiled software, a "
+"third-party software source, or a package manager error. Manually refreshing "
+"updates may resolve the issue."
+msgstr ""
+"Cela peut être dû à un logiciel téléchargé ou compilé manuellement, à une "
+"source logicielle tierce ou à une erreur du gestionnaire de paquets. "
+"L'actualisation manuelle des mises à jour peut résoudre le problème."
+
+#: src/Views/OperatingSystemView.vala:670
+msgid "System Settings Will Be Restored to The Factory Defaults"
+msgstr "Les paramètres du système seront restaurés aux valeurs par défaut"
+
+#: src/Views/OperatingSystemView.vala:671
+msgid ""
+"All system settings and data will be reset to the default values. Personal "
+"data, such as music and pictures, will be unaffected."
+msgstr ""
+"Tous les paramètres du système et les données seront réinitialisés aux "
+"valeurs par défaut. Les données personnelles comme la musique et les images "
+"ne seront pas affectés."
+
+#: src/Views/OperatingSystemView.vala:679
+msgid "Restore Settings"
+msgstr "Restaurer les paramètres"
+
+#: src/Views/OperatingSystemView.vala:824
+msgid "Sponsor Us"
+msgstr "Nous soutenir"
+
+#. /TRANSLATORS: first value is a percentage, second value is an amount in USD
+#: src/Views/OperatingSystemView.vala:887
+#, c-format
+msgid "%.0f%% towards $%'5.0f per month goal"
+msgstr "%.0f%% pour un objectif de %'5.0f $ par mois"
+
+#: src/Widgets/UpdateDetailsDialog.vala:14
+msgid "What's New"
+msgstr "Quoi de neuf"
+
+#: src/Widgets/UpdateDetailsDialog.vala:20
+#, c-format
+msgid "%u package will be upgraded"
+msgid_plural "%u packages will be upgraded"
+msgstr[0] "%u paquet sera mis à jour"
+msgstr[1] "%u paquets seront mis à jour"
+
+#: src/Widgets/UpdateDetailsDialog.vala:67
+msgid "Close"
+msgstr "Fermer"
+
+#~ msgid "Restart Required"
+#~ msgstr "Redémarrage nécessaire"
+
+#~ msgid "Operating System Information"
+#~ msgstr "Informations du système d'exploitation"
+
+#~ msgid "Hardware Information"
+#~ msgstr "Informations sur le matériel"
+
+#~ msgid "Suggest Translations"
+#~ msgstr "Proposer des traductions"
+
+#~ msgid "Updates"
+#~ msgstr "Mises à jour"
+
+#~ msgid "Check for Updates"
+#~ msgstr "Vérifier les mises à jour"
+
+#~ msgid "KB"
+#~ msgstr "Ko"
+
+#~ msgid "MB"
+#~ msgstr "Mo"
+
+#~ msgid "GB"
+#~ msgstr "Go"
+
+#~ msgid "TB"
+#~ msgstr "To"
+
+#~ msgid "PB"
+#~ msgstr "Po"
+
+#~ msgid "Internal device"
+#~ msgstr "Périphérique interne"
+
+#~ msgid "Updatable"
+#~ msgstr "Mises à jour disponible"
+
+#~ msgid "Update requires restarting the system"
+#~ msgstr "La mise à jour requiert un redémarrage du système"
+
+#~ msgid "System requires external power source"
+#~ msgstr "Le système requiert une source d'énergie externe"
+
+#~ msgid "Supported on LVFS"
+#~ msgstr "Pris en charge par LVFS"
+
+#~ msgid "Requires a bootloader"
+#~ msgstr "Nécessite un chargeur de démarrage"
+
+#~ msgid "Requires the system to shut down after installation"
+#~ msgstr "Le système doit être éteint après l'installation"
+
+#~ msgid "Reported to LVFS"
+#~ msgstr "Envoyé à LVFS"
+
+#~ msgid "User has been notified"
+#~ msgstr "L'utilisateur a été notifié"
+
+#~ msgid "Install to parent device first"
+#~ msgstr "Installer sur l'appareil parent en premier"
+
+#~ msgid "Is in bootloader mode"
+#~ msgstr "Est en mode chargeur de démarrage"
+
+#~ msgid "Hardware is waiting to be replugged"
+#~ msgstr "Le matériel attend d'être rebranché"
+
+#~ msgid "Ignore validation safety checks"
+#~ msgstr "Ignorer la validation des vérifications de sécurité"
+
+#~ msgid "Device update needs activation"
+#~ msgstr "La mise à jour requiert une activation"
+
+#~ msgid "Device will not re-appear after update completes"
+#~ msgstr "Le périphérique ne réapparaîtra pas après la fin de la mise à jour"
+
+#~ msgid "Cryptographic hash verification is available"
+#~ msgstr "La vérification du code de hachage cryptographique est disponible"
+
+#~ msgid "Device is usable for the duration of the update"
+#~ msgstr "Le périphérique reste utilisable lors de la mise à jour"
+
+#~ msgid "Suggest Translation"
+#~ msgstr "Suggérer une traduction"
+
+#~ msgid "GTK %u.%u.%u"
+#~ msgstr "GTK %u.%u.%u"
+
+#~ msgid "About"
+#~ msgstr "À propos"
+
+#~ msgid "Report Problems"
+#~ msgstr "Rapporter un problème"
+
+#~ msgid "GTK+ %s"
+#~ msgstr "GTK+ %s"
+
+#~ msgid "Which of the Following Are You Seeing an Issue With?"
+#~ msgstr "Quel composant vous pose-t-il problème ?"
+
+#~ msgid "Please select a component from the list."
+#~ msgstr "Veuillez sélectionner un composant dans la liste."
+
+#~ msgid "Categories"
+#~ msgstr "Catégories"
+
+#~ msgid "Report Problem"
+#~ msgstr "Rapporter un problème"
+
+#~ msgid "Applications Menu"
+#~ msgstr "Menu Applications"
+
+#~ msgid "Lock or Login Screen"
+#~ msgstr "Écran de verrouillage ou de connexion"
+
+#~ msgid "Look & Feel"
+#~ msgstr "Apparence"
+
+#~ msgid "Multitasking or Window Management"
+#~ msgstr "Gestion des fenêtres et du multi-tâches"
+
+#~ msgid "Notifications"
+#~ msgstr "Notifications"
+
+#~ msgid "Panel Indicators"
+#~ msgstr "Indicateurs du volet supérieur"
+
+#~ msgid "System Settings"
+#~ msgstr "Paramètres du système"
+
+#~ msgid "Desktop Components"
+#~ msgstr "Composants du bureau"
+
+#~ msgid "Default Apps"
+#~ msgstr "Applications par défaut"
+
+#~ msgid "Music"
+#~ msgstr "Musique"
+
+#~ msgid "Photos"
+#~ msgstr "Photos"
+
+#~ msgid "Terminal"
+#~ msgstr "Terminal"
+
+#~ msgid "Videos"
+#~ msgstr "Vidéos"
+
+#~ msgid "Bluetooth"
+#~ msgstr "Bluetooth"
+
+#~ msgid "Keyboard"
+#~ msgstr "Clavier"
+
+#~ msgid "Sound"
+#~ msgstr "Son"
+
+#~ msgid "Applications"
+#~ msgstr "Applications"
+
+#~ msgid "Language & Region"
+#~ msgstr "Langue & Pays"
+
+#~ msgid "Security & Privacy"
+#~ msgstr "Sécurité & vie privée"
+
+#~ msgid "Displays"
+#~ msgstr "Affichage"
+
+#~ msgid "Mouse & Touchpad"
+#~ msgstr "Souris & pavé tactile"
+
+#~ msgid "Printers"
+#~ msgstr "Imprimantes"
+
+#~ msgid "Online Accounts"
+#~ msgstr "Comptes en ligne"
+
+#~ msgid "Sharing"
+#~ msgstr "Partage"
+
+#~ msgid "Universal Access"
+#~ msgstr "Accès universel"
+
+#~ msgid "User Accounts"
+#~ msgstr "Comptes utilisateur"
+
+#~ msgid "Personal data, such as music and pictures, will be uneffected."
+#~ msgstr ""
+#~ "Les données personnelles, telles que la musique et les photos, ne seront "
+#~ "pas affectées."

@@ -1,0 +1,770 @@
+# Lithuanian translation for switchboard-plug-about
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the switchboard-plug-about package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchboard-plug-about\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-20 22:39+0000\n"
+"PO-Revision-Date: 2024-01-25 02:35+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
+"Language-Team: Lithuanian <https://l10n.elementary.io/projects/switchboard/"
+"switchboard-plug-about/lt/>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || "
+"n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
+"X-Generator: Weblate 5.0.2\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:10+0000\n"
+
+#: src/Plug.vala:46
+msgid "System"
+msgstr "Sistema"
+
+#: src/Plug.vala:47
+msgid "View operating system and hardware information"
+msgstr "Rodyti operacinės sistemos ir aparatinės įrangos informaciją"
+
+#: src/Plug.vala:63 src/Plug.vala:127 src/Plug.vala:128 src/Plug.vala:129
+#: src/Plug.vala:130 src/Plug.vala:131 src/Plug.vala:132 src/Plug.vala:133
+#: src/Plug.vala:134 src/Plug.vala:135 src/Plug.vala:136
+msgid "Operating System"
+msgstr ""
+
+#: src/Plug.vala:64 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
+msgid "Hardware"
+msgstr "Aparatinė įranga"
+
+#: src/Plug.vala:65 src/Plug.vala:144 src/Plug.vala:145
+#: src/Views/FirmwareView.vala:35
+#, fuzzy
+#| msgid "Hardware"
+msgid "Firmware"
+msgstr "Aparatinė įranga"
+
+#: src/Plug.vala:66 src/Plug.vala:147 src/Views/DriversView.vala:19
+msgid "Drivers"
+msgstr ""
+
+#: src/Plug.vala:128 src/Views/OperatingSystemView.vala:238
+#, fuzzy
+#| msgid "Updates"
+msgid "Automatic Updates"
+msgstr "Atnaujinimai"
+
+#: src/Plug.vala:129 src/Views/OperatingSystemView.vala:288
+msgid "Basics Guide"
+msgstr ""
+
+#: src/Plug.vala:130 src/Views/OperatingSystemView.vala:295
+msgid "Get Help"
+msgstr ""
+
+#: src/Plug.vala:131
+msgid "Get Involved or Sponsor Us"
+msgstr ""
+
+#: src/Plug.vala:132
+msgid "Get Support"
+msgstr ""
+
+#: src/Plug.vala:133 src/Views/OperatingSystemView.vala:302
+#, fuzzy
+#| msgid "Website"
+msgid "Our Website"
+msgstr "Internetinė svetainė"
+
+#: src/Plug.vala:134
+msgid "Report a Problem"
+msgstr "Pranešti apie klaidą"
+
+#: src/Plug.vala:135 src/Views/OperatingSystemView.vala:329
+msgid "Restore Default Settings"
+msgstr "Atkurti numatytuosius nustatymus"
+
+#: src/Plug.vala:136 src/Views/OperatingSystemView.vala:331
+msgid "Send Feedback"
+msgstr ""
+
+#: src/Plug.vala:139
+#, fuzzy
+#| msgid "Updates"
+msgid "Device name"
+msgstr "Atnaujinimai"
+
+#: src/Plug.vala:140
+msgid "Host name"
+msgstr ""
+
+#. https://github.com/elementary/switchboard-plug-about/issues/219
+#: src/Plug.vala:142
+msgid "About This Device"
+msgstr ""
+
+#: src/Plug.vala:145 src/Views/FirmwareView.vala:86
+msgid "Restart to Firmware Setup…"
+msgstr ""
+
+#: src/Views/DriversView.vala:20
+msgid ""
+"Broadcom® Wi-Fi adapters, NVIDIA® graphics, and some virtual machines may "
+"not function properly without additional drivers."
+msgstr ""
+
+#: src/Views/DriversView.vala:25
+#, fuzzy
+#| msgid "Updates"
+msgid "No drivers available"
+msgstr "Atnaujinimai"
+
+#: src/Views/DriversView.vala:26
+msgid "This device doesn't need any additional drivers."
+msgstr ""
+
+#: src/Views/DriversView.vala:30
+#, fuzzy
+#| msgid "Check for Updates"
+msgid "Checking for Drivers"
+msgstr "Tikrinti ar yra atnaujinimų"
+
+#: src/Views/DriversView.vala:31
+msgid "Connecting to the driver service and searching for drivers."
+msgstr ""
+
+#: src/Views/DriversView.vala:51
+msgid "Failed to install driver"
+msgstr ""
+
+#: src/Views/DriversView.vala:52
+msgid "Manually refreshing driver information may resolve the issue"
+msgstr ""
+
+#: src/Views/DriversView.vala:55 src/Views/OperatingSystemView.vala:214
+msgid "Refresh"
+msgstr "Įkelti iš naujo"
+
+#: src/Views/DriversView.vala:55
+#, fuzzy
+#| msgid "System Information"
+msgid "Refresh driver information"
+msgstr "Sistemos informacija"
+
+#: src/Views/DriversView.vala:56 src/Views/OperatingSystemView.vala:226
+msgid "Learn More…"
+msgstr ""
+
+#: src/Views/DriversView.vala:91
+msgid "Failed to install"
+msgstr ""
+
+#: src/Views/DriversView.vala:92
+msgid ""
+"This may have been caused by sideloaded or manually compiled software, a "
+"third-party software source, or a package manager error. Manually refreshing "
+"may resolve the issue."
+msgstr ""
+
+#: src/Views/DriversView.vala:156
+#, c-format
+msgid "Installing %s…"
+msgstr ""
+
+#: src/Views/FirmwareReleaseView.vala:28
+#, fuzzy
+#| msgid "Updates"
+msgid "All Updates"
+msgstr "Atnaujinimai"
+
+#: src/Views/FirmwareReleaseView.vala:74
+msgid "Version:"
+msgstr "Versija:"
+
+#: src/Views/FirmwareReleaseView.vala:83
+msgid "Vendor:"
+msgstr ""
+
+#: src/Views/FirmwareReleaseView.vala:92
+msgid "Size:"
+msgstr ""
+
+#: src/Views/FirmwareReleaseView.vala:101
+msgid "Estimated time to install:"
+msgstr ""
+
+#: src/Views/FirmwareReleaseView.vala:129
+msgid "There are no releases available for this device."
+msgstr ""
+
+#: src/Views/FirmwareReleaseView.vala:202 src/Widgets/FirmwareUpdateRow.vala:73
+#, fuzzy
+#| msgid "Updates"
+msgid "Update"
+msgstr "Atnaujinimai"
+
+#: src/Views/FirmwareReleaseView.vala:205
+#, fuzzy
+#| msgid "Updates"
+msgid "Up to date"
+msgstr "Atnaujinimai"
+
+#: src/Views/FirmwareReleaseView.vala:226
+msgid "less than a minute"
+msgstr ""
+
+#: src/Views/FirmwareReleaseView.vala:230
+#, c-format
+msgid "%llu minute"
+msgid_plural "%llu minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: src/Views/FirmwareView.vala:36
+msgid ""
+"Firmware updates provided by device manufacturers can improve performance "
+"and fix critical security issues."
+msgstr ""
+
+#: src/Views/FirmwareView.vala:42
+msgid "Do not unplug the device during the update."
+msgstr ""
+
+#: src/Views/FirmwareView.vala:46 src/Views/OperatingSystemView.vala:548
+#, fuzzy
+#| msgid "Check for Updates"
+msgid "Checking for Updates"
+msgstr "Tikrinti ar yra atnaujinimų"
+
+#: src/Views/FirmwareView.vala:47
+msgid "Connecting to the firmware service and searching for updates."
+msgstr ""
+
+#: src/Views/FirmwareView.vala:116
+#, fuzzy
+#| msgid "Updates"
+msgid "Firmware Updates Are Not Available"
+msgstr "Atnaujinimai"
+
+#: src/Views/FirmwareView.vala:117
+msgid "Firmware updates are not supported on this or any connected devices."
+msgstr ""
+
+#: src/Views/FirmwareView.vala:119
+msgid "The Firmware Service Is Not Available"
+msgstr ""
+
+#: src/Views/FirmwareView.vala:120
+msgid "Please make sure “fwupd” is installed and enabled."
+msgstr ""
+
+#: src/Views/FirmwareView.vala:219
+#, fuzzy, c-format
+#| msgid "Updates"
+msgid "%u Update Available"
+msgid_plural "%u Updates Available"
+msgstr[0] "Atnaujinimai"
+msgstr[1] "Atnaujinimai"
+msgstr[2] "Atnaujinimai"
+msgstr[3] "Atnaujinimai"
+
+#: src/Views/FirmwareView.vala:223
+#, fuzzy
+#| msgid "Updates"
+msgid "Up to Date"
+msgstr "Atnaujinimai"
+
+#: src/Views/FirmwareView.vala:231
+#, c-format
+msgid "“%s” is being updated"
+msgstr ""
+
+#: src/Views/FirmwareView.vala:331
+msgid "Failed to install firmware release"
+msgstr ""
+
+#: src/Views/FirmwareView.vala:352
+#, c-format
+msgid "“%s” needs to manually be put in update mode"
+msgstr ""
+
+#: src/Views/FirmwareView.vala:361
+msgid "Continue"
+msgstr ""
+
+#: src/Views/FirmwareView.vala:374
+msgid "An update requires the system to restart to complete"
+msgstr ""
+
+#: src/Views/FirmwareView.vala:375
+msgid "This will close all open applications and restart this device."
+msgstr ""
+
+#: src/Views/FirmwareView.vala:383 src/Views/FirmwareView.vala:432
+msgid "Restart"
+msgstr ""
+
+#: src/Views/FirmwareView.vala:398
+msgid "An update requires the system to shut down to complete"
+msgstr ""
+
+#: src/Views/FirmwareView.vala:399
+msgid "This will close all open applications and turn off this device."
+msgstr ""
+
+#: src/Views/FirmwareView.vala:407
+msgid "Shut Down"
+msgstr ""
+
+#: src/Views/FirmwareView.vala:422
+msgid "Restart to firmware setup"
+msgstr ""
+
+#: src/Views/FirmwareView.vala:423
+msgid ""
+"This will close all open applications, restart this device, and open the "
+"firmware setup screen."
+msgstr ""
+
+#: src/Views/FirmwareView.vala:447
+msgid "Unable to restart to firmware setup"
+msgstr ""
+
+#: src/Views/FirmwareView.vala:448
+msgid "A system error prevented automatically restarting into firmware setup."
+msgstr ""
+
+#: src/Views/HardwareView.vala:49
+msgid "You do not have permission to change the device name"
+msgstr ""
+
+#: src/Views/HardwareView.vala:60
+#, c-format
+msgid "%s memory"
+msgstr "Atmintis: %s"
+
+#: src/Views/HardwareView.vala:66 src/Views/HardwareView.vala:360
+#, fuzzy
+#| msgid "Graphics:"
+msgid "Unknown Graphics"
+msgstr "Vaizdo posistemė:"
+
+#: src/Views/HardwareView.vala:81
+#, fuzzy
+#| msgid "Processor:"
+msgid "Unknown storage"
+msgstr "Procesorius:"
+
+#: src/Views/HardwareView.vala:127
+msgid "Manufacturer Website"
+msgstr "Gamintojo svetainė"
+
+#: src/Views/HardwareView.vala:160
+#, fuzzy
+#| msgid "Updates"
+msgid "Update device name"
+msgstr "Atnaujinimai"
+
+#: src/Views/HardwareView.vala:180
+msgid "Device name saved"
+msgstr ""
+
+#: src/Views/HardwareView.vala:284
+#, fuzzy, c-format
+#| msgid "Dual-Core"
+msgid "Dual-Core %s"
+msgstr "Dviejų branduolių"
+
+#: src/Views/HardwareView.vala:286
+#, fuzzy, c-format
+#| msgid "Quad-Core"
+msgid "Quad-Core %s"
+msgstr "Keturių branduolių"
+
+#: src/Views/HardwareView.vala:288
+#, c-format
+msgid "Hexa-Core %s"
+msgstr ""
+
+#: src/Views/HardwareView.vala:400
+#, fuzzy
+#| msgid "Processor:"
+msgid "Unknown Processor"
+msgstr "Procesorius:"
+
+#: src/Views/HardwareView.vala:473
+msgid "Unknown"
+msgstr "Nežinoma"
+
+#: src/Views/HardwareView.vala:528
+#, c-format
+msgid "%s storage (NVMe SSD)"
+msgstr "%s kaupiklis (NVMe SSD)"
+
+#: src/Views/HardwareView.vala:530
+#, c-format
+msgid "%s storage (eMMC)"
+msgstr "%s kaupiklis (eMMC)"
+
+#: src/Views/HardwareView.vala:532
+#, c-format
+msgid "%s storage (SATA SSD)"
+msgstr "%s kaupiklis (SATA SSD)"
+
+#: src/Views/HardwareView.vala:535
+#, c-format
+msgid "%s storage (HDD)"
+msgstr "%s kaupiklis (HDD)"
+
+#. Set fallback string for the device type
+#: src/Views/HardwareView.vala:540
+#, c-format
+msgid "%s storage"
+msgstr "Kaupiklis: %s"
+
+#: src/Views/HardwareView.vala:712
+msgid "byte"
+msgid_plural "bytes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: src/Views/HardwareView.vala:714
+#, c-format
+msgid "%u byte"
+msgid_plural "%u bytes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: src/Views/HardwareView.vala:721
+#, c-format
+msgctxt "format-size"
+msgid "%u %s"
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:209
+msgid "Download"
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:212
+msgid "Cancel"
+msgstr "Atsisakyti"
+
+#: src/Views/OperatingSystemView.vala:239
+msgid ""
+"Updates will be automatically downloaded. They will be installed when this "
+"device is restarted."
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:309
+msgid "Get Involved"
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:496
+#, c-format
+msgid "Built on %s"
+msgstr "Sukurta %s pagrindu"
+
+#: src/Views/OperatingSystemView.vala:516
+#, fuzzy
+#| msgid "Updates"
+msgid "System updates not available"
+msgstr "Atnaujinimai"
+
+#: src/Views/OperatingSystemView.vala:517
+msgid "Couldn't connect to the backend. Try logging out to resolve the issue."
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:530
+#, fuzzy
+#| msgid "Updates"
+msgid "Up To Date"
+msgstr "Atnaujinimai"
+
+#: src/Views/OperatingSystemView.vala:534
+#, c-format
+msgid "Last checked %s"
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:541
+msgid "Last checked unknown"
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:554
+#, fuzzy
+#| msgid "Updates"
+msgid "Updates Available"
+msgstr "Atnaujinimai"
+
+#: src/Views/OperatingSystemView.vala:561
+#, fuzzy, c-format
+#| msgid "Updates"
+msgid "%i update available (%s)"
+msgid_plural "%i updates available (%s)"
+msgstr[0] "Atnaujinimai"
+msgstr[1] "Atnaujinimai"
+msgstr[2] "Atnaujinimai"
+msgstr[3] "Atnaujinimai"
+
+#: src/Views/OperatingSystemView.vala:572
+msgid "Unable to determine number of updates"
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:586
+#, fuzzy
+#| msgid "Updates"
+msgid "Downloading Updates"
+msgstr "Atnaujinimai"
+
+#: src/Views/OperatingSystemView.vala:595
+msgid "Restart to install pending updates"
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:596
+msgid ""
+"Updates have been downloaded. A restart is required to finish installing "
+"them."
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:601
+#: src/Views/OperatingSystemView.vala:627
+msgid "Failed to download updates"
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:602
+msgid "Manually refreshing updates may resolve the issue"
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:617
+#, c-format
+msgid "%s of %s"
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:628
+msgid ""
+"This may have been caused by sideloaded or manually compiled software, a "
+"third-party software source, or a package manager error. Manually refreshing "
+"updates may resolve the issue."
+msgstr ""
+
+#: src/Views/OperatingSystemView.vala:670
+msgid "System Settings Will Be Restored to The Factory Defaults"
+msgstr "Sistemos nustatymai bus atkurti į gamyklines reikšmes"
+
+#: src/Views/OperatingSystemView.vala:671
+msgid ""
+"All system settings and data will be reset to the default values. Personal "
+"data, such as music and pictures, will be unaffected."
+msgstr ""
+"Visi sistemos nustatymai ir duomenys bus atstatyti į numatytąsias reikšmes. "
+"Asmeniniai duomenys, tokie kaip muzika ir paveikslai, nebus paveikti."
+
+#: src/Views/OperatingSystemView.vala:679
+msgid "Restore Settings"
+msgstr "Atkurti nustatymus"
+
+#: src/Views/OperatingSystemView.vala:824
+msgid "Sponsor Us"
+msgstr ""
+
+#. /TRANSLATORS: first value is a percentage, second value is an amount in USD
+#: src/Views/OperatingSystemView.vala:887
+#, c-format
+msgid "%.0f%% towards $%'5.0f per month goal"
+msgstr ""
+
+#: src/Widgets/UpdateDetailsDialog.vala:14
+msgid "What's New"
+msgstr ""
+
+#: src/Widgets/UpdateDetailsDialog.vala:20
+#, c-format
+msgid "%u package will be upgraded"
+msgid_plural "%u packages will be upgraded"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: src/Widgets/UpdateDetailsDialog.vala:67
+msgid "Close"
+msgstr "Užverti"
+
+#, fuzzy
+#~| msgid "System Information"
+#~ msgid "Operating System Information"
+#~ msgstr "Sistemos informacija"
+
+#, fuzzy
+#~| msgid "System Information"
+#~ msgid "Hardware Information"
+#~ msgstr "Sistemos informacija"
+
+#~ msgid "Suggest Translations"
+#~ msgstr "Siūlyti vertimus"
+
+#~ msgid "Updates"
+#~ msgstr "Atnaujinimai"
+
+#~ msgid "Check for Updates"
+#~ msgstr "Tikrinti ar yra atnaujinimų"
+
+#, fuzzy
+#~| msgid "Updates"
+#~ msgid "Updatable"
+#~ msgstr "Atnaujinimai"
+
+#~ msgid "Suggest Translation"
+#~ msgstr "Siūlyti vertimą"
+
+#~ msgid "About"
+#~ msgstr "Apie"
+
+#~ msgid "Report Problems"
+#~ msgstr "Pranešti apie klaidas"
+
+#~ msgid "GTK+ %s"
+#~ msgstr "GTK+ %s"
+
+#~ msgid "Which of the Following Are You Seeing an Issue With?"
+#~ msgstr "Kuriame iš šių matote problemą?"
+
+#~ msgid "Please select a component from the list."
+#~ msgstr "Pasirinkite komponentą iš sąrašo."
+
+#~ msgid "Categories"
+#~ msgstr "Kategorijos"
+
+#~ msgid "Report Problem"
+#~ msgstr "Pranešti apie problemą"
+
+#~ msgid "Applications Menu"
+#~ msgstr "Programų meniu"
+
+#~ msgid "Lock or Login Screen"
+#~ msgstr "Užrakto ar prisijungimo ekranas"
+
+#~ msgid "Look & Feel"
+#~ msgstr "Išvaizda ir turinys"
+
+#~ msgid "Multitasking or Window Management"
+#~ msgstr "Daugiaprogramis apdorojimas ar langų tvarkymas"
+
+#~ msgid "Notifications"
+#~ msgstr "Pranešimai"
+
+#~ msgid "Panel Indicators"
+#~ msgstr "Skydelio indikatoriai"
+
+#~ msgid "System Settings"
+#~ msgstr "Sistemos nustatymai"
+
+#~ msgid "Desktop Components"
+#~ msgstr "Darbalaukio komponentai"
+
+#~ msgid "Default Apps"
+#~ msgstr "Numatytosios programos"
+
+#~ msgid "AppCenter"
+#~ msgstr "Programų centras"
+
+#~ msgid "Calculator"
+#~ msgstr "Skaičiuotuvas"
+
+#~ msgid "Calendar"
+#~ msgstr "Kalendorius"
+
+#~ msgid "Camera"
+#~ msgstr "Kamera"
+
+#~ msgid "Code"
+#~ msgstr "Kodas"
+
+#~ msgid "Files"
+#~ msgstr "Failai"
+
+#~ msgid "Mail"
+#~ msgstr "Paštas"
+
+#~ msgid "Music"
+#~ msgstr "Muzika"
+
+#~ msgid "Photos"
+#~ msgstr "Nuotraukos"
+
+#~ msgid "Screenshot"
+#~ msgstr "Ekrano kopija"
+
+#~ msgid "Terminal"
+#~ msgstr "Terminalas"
+
+#~ msgid "Videos"
+#~ msgstr "Vaizdo įrašai"
+
+#~ msgid "Bluetooth"
+#~ msgstr "Bluetooth"
+
+#~ msgid "Date & Time"
+#~ msgstr "Data ir laikas"
+
+#~ msgid "Keyboard"
+#~ msgstr "Klaviatūra"
+
+#~ msgid "Night Light"
+#~ msgstr "Naktinis apšvietimas"
+
+#~ msgid "Power"
+#~ msgstr "Maitinimas"
+
+#~ msgid "Sound"
+#~ msgstr "Garsas"
+
+#~ msgid "Applications"
+#~ msgstr "Programos"
+
+#~ msgid "Desktop"
+#~ msgstr "Darbalaukis"
+
+#~ msgid "Language & Region"
+#~ msgstr "Kalba ir regionas"
+
+#~ msgid "Security & Privacy"
+#~ msgstr "Saugumas ir privatumas"
+
+#~ msgid "Displays"
+#~ msgstr "Ekranai"
+
+#~ msgid "Mouse & Touchpad"
+#~ msgstr "Pelė ir jutiklinis kilimėlis"
+
+#~ msgid "Printers"
+#~ msgstr "Spausdintuvai"
+
+#~ msgid "Network"
+#~ msgstr "Tinklas"
+
+#~ msgid "Online Accounts"
+#~ msgstr "Internetinės paskyros"
+
+#~ msgid "Sharing"
+#~ msgstr "Bendrinimas"
+
+#~ msgid "Parental Control"
+#~ msgstr "Tėvų kontrolė"
+
+#~ msgid "Universal Access"
+#~ msgstr "Universalioji prieiga"
+
+#~ msgid "User Accounts"
+#~ msgstr "Naudotojų paskyros"
+
+#~ msgid "Personal data, such as music and pictures, will be uneffected."
+#~ msgstr ""
+#~ "Asmeniniai duomenys, tokie kaip muzika ir paveikslai išliks nepakitę."

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+  <id>io.elementary.settings.system</id>
+  <extends>io.elementary.settings</extends>
+  <translation type="gettext">io.elementary.settings.system</translation>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+
+  <icon type="stock">application-x-firmware</icon>
+  <name>System</name>
+  <summary>View operating system and hardware information</summary>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-about/8.1.0/data/screenshot.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-about/8.1.0/data/screenshot-hardware.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-about/8.1.0/data/screenshot-firmware.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-about/8.1.0/data/screenshot-drivers.png</image>
+    </screenshot>
+  </screenshots>
+
+  <content_rating type="oars-1.1" />
+
+  <url type="bugtracker">https://github.com/elementary/switchboard-plug-about/issues</url>
+  <url type="donation">https://elementary.io/get-involved#funding</url>
+  <url type="help">https://github.com/elementary/switchboard-plug-about/discussions</url>
+  <url type="homepage">https://elementary.io/</url>
+  <url type="translate">https://l10n.elementary.io/engage/switchboard/</url>
+
+  <developer id="org.elementaryos">
+    <name>elementary, Inc.</name>
+  </developer>
+  <project_group>elementary</project_group>
+  <update_contact>contact_at_elementary.io</update_contact>
+
+  <releases>
+    <release version="8.2.1" date="2025-05-01" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/switchboard-plug-about/issues/219">show when search for "About"</issue>
+        <issue url="https://github.com/elementary/switchboard/discussions/343">About the "Restart required" message</issue>
+      </issues>
+    </release>
+
+    <release version="8.2.0" date="2025-02-12" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/switchboard-plug-about/issues/239">Segfault</issue>
+        <issue url="https://github.com/elementary/switchboard-plug-about/issues/310">Progress indicator when downloading updates</issue>
+        <issue url="https://github.com/elementary/switchboard-plug-about/issues/338">System causes Switchboard to close</issue>
+        <issue url="https://github.com/elementary/switchboard-plug-about/issues/342">Refreshing update check does not refresh "Last refreshed"</issue>
+      </issues>
+    </release>
+
+    <release version="8.1.0" date="2024-12-12" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/switchboard-plug-about/issues/329">Show sponsor goal progress bar</issue>
+      </issues>
+    </release>
+
+    <release version="8.0.0" date="2024-07-25" urgency="medium">
+      <description>
+        <p>New features:</p>
+        <ul>
+          <li>Manage Operating System updates, including automatic updates</li>
+          <li>Manage additional drivers</li>
+        </ul>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Improve operating system image for other Linux distributions</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/switchboard-plug-about/issues/60">Fund elementary OS</issue>
+        <issue url="https://github.com/elementary/switchboard-plug-about/issues/248">Feature to change Hostname</issue>
+        <issue url="https://github.com/elementary/switchboard-plug-about/issues/272">Wallpaper placeholder is visible behind elementary logo during navigation to plug</issue>
+        <issue url="https://github.com/elementary/switchboard-plug-about/issues/274">does not compile with appstream 1.0.0</issue>
+        <issue url="https://github.com/elementary/switchboard-plug-about/issues/291">Use software-update-urgent if any security updates are included</issue>
+        <issue url="https://github.com/elementary/switchboard-plug-about/issues/295">Revamp links to match Onboarding</issue>
+        <issue url="https://github.com/elementary/switchboard-plug-about/issues/312">Updates section empty if settings-daemon can't connect</issue>
+      </issues>
+    </release>
+
+    <release version="6.2.0" date="2023-01-26" urgency="medium">
+      <description>
+        <p>New features:</p>
+        <ul>
+          <li>Add a button to restart to firmware setup</li>
+        </ul>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Get more accurate memory and storage information</li>
+          <li>Handle Ryzen CPU and AMD GPU vendor string</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="6.1.0" date="2022-04-06" urgency="medium">
+      <description>
+        <p>New features:</p>
+        <ul>
+          <li>Added support for dark style manufacturer logos</li>
+          <li>Added support for offline firmware updates</li>
+        </ul>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="6.0.1" date="2021-08-23" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Use formatted device name when available</li>
+          <li>Display more information for certain GPUs, including Intel® Xe Graphics</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="6.0.0" date="2021-07-15" urgency="medium">
+      <description>
+        <p>Redesign and new features:</p>
+        <ul>
+          <li>Rename from About to System</li>
+          <li>Split Hardware and Operating System info into their own tabs</li>
+          <li>Redesign the Operating System tab with clearer links and buttons</li>
+          <li>Add a Firmware view to manage device firmware updates</li>
+        </ul>
+        <p>More information:</p>
+        <ul>
+          <li>Provide information for ARM CPUs</li>
+          <li>Provide information for more types of Graphics</li>
+        </ul>
+        <p>Fixes:</p>
+        <ul>
+          <li>Fix an issue where the view was destroyed early when navigating away</li>
+          <li>Fix system memory calculation</li>
+        </ul>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Ellipsize long hardware names</li>
+          <li>Performance improvements</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="2.6.3" date="2020-05-28" urgency="medium" />
+    <release version="2.6.2" date="2020-04-08" urgency="medium" />
+    <release version="2.6.1" date="2019-11-15" urgency="medium" />
+  </releases>
+</component>
