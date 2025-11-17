@@ -615,8 +615,8 @@ public class About.OperatingSystemView : Gtk.Box {
         };
 
         // Use custom logo files from /usr/share/branding/
-        var file_dark = File.new_for_path ("/usr/share/branding/caracal.png");
-        var file_light = File.new_for_path ("/usr/share/branding/caracal.png");
+        var file_dark = File.new_for_path ("/usr/share/branding/logo.png");
+        var file_light = File.new_for_path ("/usr/share/branding/logo_white.png");
 
         if (file_dark.query_exists () || file_light.query_exists ()) {
             logo_file_light = file_light.query_exists () ? file_light : null;
