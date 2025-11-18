@@ -88,6 +88,23 @@ public class About.Plug : Switchboard.Plug {
                 content = stack
             };
             toolbarview.add_top_bar (headerbar);
+
+            var footer_label = new Gtk.Label ("<span size=\"small\">© 2025-2026 diam Systems Ltd. All Rights Reserved.</span>") {
+                use_markup = true,
+                halign = Gtk.Align.CENTER,
+                hexpand = true,
+                justify = Gtk.Justification.CENTER,
+                margin_top = 6,
+                margin_bottom = 6
+            };
+            footer_label.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
+
+            var footer_center = new Gtk.CenterBox () {
+                hexpand = true,
+                center_widget = footer_label
+            };
+
+            toolbarview.add_bottom_bar (footer_center);
         }
 
         return toolbarview;
